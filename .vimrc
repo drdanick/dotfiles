@@ -45,7 +45,7 @@ Plugin 'taglist.vim'
 " Switch buffers easily
 Plugin 'minibufexpl.vim'
 
-" Extremely powerful source completion
+" Extremely powerful semantic source completion
 Plugin 'oblitum/YouCompleteMe'
 
 " Auto close brackets and quotes
@@ -243,6 +243,9 @@ command SG exec ShowGutter()
 "
 " Useful command aliases
 "
+
+command HideGutter sign unplace *
+command HG HideGutter
 
 " Highlight trailing whitespace
 command ShowWSTrailing /\s\+$
