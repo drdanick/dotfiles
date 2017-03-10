@@ -93,6 +93,7 @@ Plugin 'dzeban/vim-log-syntax'
 "
 Plugin 'tomasr/molokai'
 Plugin 'fmoralesc/molokayo'
+Plugin 'altercation/vim-colors-solarized'
 
 
 call vundle#end()         " End vundle init
