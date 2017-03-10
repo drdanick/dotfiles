@@ -289,9 +289,9 @@ let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#show_buffers = 1
 
 "
-" gundo settings
+"  Undotree settings
 "
-nmap <F5> :GundoToggle<CR>
+nmap <F5> :UndotreeToggle<CR>
 
 "
 " YouCompleteMe settings
