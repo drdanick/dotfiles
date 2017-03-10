@@ -23,6 +23,13 @@ to your home folder.
 To install the vim plugins, start vim and enter the command `PluginInstall`.
 
 
+Tmux
+----
+
+Simply copy .tmux.conf to your home directory. The config is designed for Versions > 2.0, though there are some lines
+you can comment out in order to get mouse support in earlier versions.
+
+
 License
 -------
 
