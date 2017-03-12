@@ -20,7 +20,7 @@ Vim
 Assuming you cloned the repositories submodules, all that's required to set vim up is to copy .vimrc and .vim/
 to your home folder.
 
-To install the vim plugins, start vim and enter the command `PluginInstall`.
+To install the vim plugins, start vim and enter the command `:PluginInstall`.
 
 
 Tmux
