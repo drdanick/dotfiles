@@ -300,5 +300,6 @@ nmap <F5> :UndotreeToggle<CR>
 " YouCompleteMe settings
 "
 let g:ycm_complete_in_strings = 0
+let g:ycm_autoclose_preview_window_after_completion = 1
 
 " }}}
