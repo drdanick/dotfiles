@@ -14,7 +14,7 @@ set nocompatible " The !Most Important! setting. Be vim, not vi.
 
 filetype off " Required for vundle
 
-" We use Vundle
+" I use Vundle
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
