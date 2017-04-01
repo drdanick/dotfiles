@@ -312,4 +312,12 @@ let g:ycm_server_keep_logfiles = 0
 
 let g:tabman_toggle = '<leader>tt'
 
+"
+" Apricos settings
+"
+
+" This fixes comment formatting
+autocmd FileType apricos setl cms=;%s
+
+
 " }}}
