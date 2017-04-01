@@ -78,6 +78,9 @@ Plugin 'vim-latex/vim-latex'
 " Nice window swapping
 Plugin 'wesQ3/vim-windowswap'
 
+" Tab management
+Plugin 'kien/tabman.vim'
+
 "
 " Syntax Plugins
 "
