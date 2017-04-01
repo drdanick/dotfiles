@@ -304,5 +304,12 @@ nmap <F5> :UndotreeToggle<CR>
 "
 let g:ycm_complete_in_strings = 0
 let g:ycm_autoclose_preview_window_after_completion = 1
+let g:ycm_server_keep_logfiles = 0
+
+"
+" TabMan settings
+"
+
+let g:tabman_toggle = '<leader>tt'
 
 " }}}
