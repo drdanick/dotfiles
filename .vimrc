@@ -126,6 +126,14 @@ set mouse+=a
 if &term =~ '^screen'
     " tmux knows the extended mouse mode
     set ttymouse=xterm2
+elseif has("mouse_sgr")
+    " Allow mouse to move past the 220th column even outside of tmux
+    " This also fixes mouse issues in some environments (like WSL)
+    set ttymouse=sgr
+else
+    " Set the extended mouse mode anyway. Comment out this line if the mouse
+    " starts freaking out or not working.
+    set ttymouse=xterm2
 endif
 
 syntax enable
@@ -289,10 +297,11 @@ map <Leader>b :MiniBufExplorer<cr>
 " Airline settings
 "
 let g:airline_theme = 'zenburn'
-let g:airline_left_sep=''
-let g:airline_right_sep=''
+"let g:airline_left_sep=''
+"let g:airline_right_sep=''
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#show_buffers = 1
+let g:airline_powerline_fonts = 1
 
 "
 "  Undotree settings
