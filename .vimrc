@@ -81,6 +81,9 @@ Plugin 'wesQ3/vim-windowswap'
 " Tab management
 Plugin 'kien/tabman.vim'
 
+" scm diff indicators in gutter
+plugin 'mhinz/vim-signify'
+
 "
 " Syntax Plugins
 "
