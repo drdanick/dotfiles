@@ -82,7 +82,7 @@ Plugin 'wesQ3/vim-windowswap'
 Plugin 'kien/tabman.vim'
 
 " scm diff indicators in gutter
-plugin 'mhinz/vim-signify'
+Plugin 'mhinz/vim-signify'
 
 "
 " Syntax Plugins
