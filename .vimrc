@@ -46,7 +46,7 @@ Plugin 'taglist.vim'
 Plugin 'minibufexpl.vim'
 
 " Extremely powerful semantic source completion
-Plugin 'oblitum/YouCompleteMe'
+Plugin 'ycm-core/YouCompleteMe'
 
 " Auto close brackets and quotes
 Plugin 'Raimondi/delimitMate'
