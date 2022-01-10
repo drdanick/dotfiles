@@ -94,6 +94,9 @@ Plugin 'drdanick/apricos.vim'
 " General log file highlighting
 Plugin 'dzeban/vim-log-syntax'
 
+" PKGBUILD highlighting
+Plugin 'm-pilia/vim-pkgbuild'
+
 "
 " Colorscheme Plugins
 "
