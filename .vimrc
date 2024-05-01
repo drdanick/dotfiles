@@ -46,7 +46,7 @@ Plugin 'taglist.vim'
 Plugin 'minibufexpl.vim'
 
 " Extremely powerful semantic source completion
-Plugin 'ycm-core/YouCompleteMe'
+" Plugin 'ycm-core/YouCompleteMe'
 
 " Auto close brackets and quotes
 Plugin 'Raimondi/delimitMate'
@@ -83,6 +83,9 @@ Plugin 'kien/tabman.vim'
 
 " scm diff indicators in gutter
 Plugin 'mhinz/vim-signify'
+
+" Better git merge resolution
+Plugin 'samoshkin/vim-mergetool'
 
 "
 " Syntax Plugins
@@ -333,5 +336,12 @@ let g:tabman_toggle = '<leader>tt'
 " This fixes comment formatting
 autocmd FileType apricos setl cms=;%s
 
+"
+" vim-mergetool settings
+"
+
+" Defaults recommended by samoshkin/vim-mergetool
+let g:mergetool_layout = 'mr'
+let g:mergetool_prefer_revision = 'local'
 
 " }}}
